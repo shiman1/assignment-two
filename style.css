@@ -58,7 +58,7 @@ h3{
     
 }
 .top-heading img:hover{
-    width: 450px;
+    width: 500px;
     
     transform: rotate(180deg);
   }
@@ -111,7 +111,7 @@ margin: 20px auto;
     margin: 20px;
 }
 .camera:hover{
-    background-color: rgb(228, 214, 158);
+    background-color: cornsilk;
 }
 section.camera:hover{
     background-color: whitesmoke;
