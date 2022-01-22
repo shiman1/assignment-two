@@ -210,7 +210,7 @@ footer{
 
 /* mobile device */
 
- @media only screen and (max-width: 768px) {  
+ @media only screen and (max-width: 688px) {  
     body{
         width: 100%;
     }
@@ -255,14 +255,15 @@ footer{
         
         
         .cameras{
-            grid-template-columns: repeat(1,1fr);
-            margin-left: 40px;
+            display: grid;
+            grid-template-columns: 1fr;
+            align-content: center;
 
             
         }
         .camera{
             flex-direction: column;
-            padding: auto;
+            
     }
     footer{
         flex-direction: column;
@@ -276,7 +277,7 @@ footer{
 
  /* tablet area devices */
 
- @media only screen and (min-width:768px) and (max-width:992px) {
+ @media only screen and (min-width:688px) and (max-width:992px) {
     body{
         background-color: rgb(243, 243, 239);
     }
@@ -309,8 +310,10 @@ footer{
             width: 100%;
         }
         .cameras{
+            display: grid;
             grid-template-columns: repeat(2,1fr);
-            margin-left: 20px;
+            align-content: center;
+            
         
         }
         .camera{
